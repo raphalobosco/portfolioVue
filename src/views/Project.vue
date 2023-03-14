@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import sourceData from "../data/data.json";
 import { ref, computed } from "vue";
 
@@ -15,13 +15,24 @@ export default {
   },
 };
 
-// const projectId = computed(() => {
-//     return
-// })
+</script> -->
 
-// const project = computed(() => {
-//     return sourceData.projects.find(project => project.id === projectId.value)
-// })
+<script setup>
+import { computed } from "vue";
+import sourceData from "../data/data.json";
+import { useRoute } from "vue-router";
+
+const route = useRoute();
+
+const projects = sourceData.projects;
+const projId = route.params.id;
+
+console.log(projId);
+
+const project = computed(() =>
+  projects.find((project) => project.id === projId)
+);
+console.log(project);
 </script>
 
 <template>
