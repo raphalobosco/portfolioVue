@@ -1,0 +1,81 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "title": "Project One",
+            "desc": "This project involves building a new website for a client using React and Node.js.",
+            "photo": "https://picsum.photos/800/600?random=1",
+            "images": [
+                "https://picsum.photos/800/600?random=2",
+                "https://picsum.photos/800/600?random=3",
+                "https://picsum.photos/800/600?random=4"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Project Two",
+            "desc": "In this project, we created a mobile app for a healthcare company using Flutter and Firebase.",
+            "photo": "https://picsum.photos/800/600?random=2",
+            "images": [
+                "https://picsum.photos/800/600?random=2",
+                "https://picsum.photos/800/600?random=3",
+                "https://picsum.photos/800/600?random=4"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Project Three",
+            "desc": "Our team worked on a data analysis project for a financial services company using Python and Pandas.",
+            "photo": "https://picsum.photos/800/600?random=3",
+            "images": [
+                "https://picsum.photos/800/600?random=2",
+                "https://picsum.photos/800/600?random=3",
+                "https://picsum.photos/800/600?random=4"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Mobile App Development",
+            "desc": "We developed a mobile app for a restaurant using React Native and Firebase.",
+            "photo": "https://picsum.photos/800/600?random=4",
+            "images": [
+                "https://picsum.photos/800/600?random=5",
+                "https://picsum.photos/800/600?random=6",
+                "https://picsum.photos/800/600?random=7"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Website Design",
+            "desc": "Our team designed a website for a clothing brand using Figma and Bootstrap.",
+            "photo": "https://picsum.photos/800/600?random=5",
+            "images": [
+                "https://picsum.photos/800/600?random=6",
+                "https://picsum.photos/800/600?random=7",
+                "https://picsum.photos/800/600?random=8"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "Machine Learning Project",
+            "desc": "We built a recommendation system for an e-commerce website using Python and TensorFlow.",
+            "photo": "https://picsum.photos/800/600?random=6",
+            "images": [
+                "https://picsum.photos/800/600?random=7",
+                "https://picsum.photos/800/600?random=8",
+                "https://picsum.photos/800/600?random=9"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "Digital Marketing Campaign",
+            "desc": "We ran a social media advertising campaign for a beauty brand using Facebook Ads and Google Ads.",
+            "photo": "https://picsum.photos/800/600?random=7",
+            "images": [
+                "https://picsum.photos/800/600?random=8",
+                "https://picsum.photos/800/600?random=9",
+                "https://picsum.photos/800/600?random=10"
+            ]
+        }
+    ]
+}
